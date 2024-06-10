@@ -1,0 +1,23 @@
+* {
+    background-color: #222;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+form {
+    width: 70%;
+    margin: 2rem auto;
+}
+
+input {
+    width: 50%;
+    height: 10rem;
+    border: 2px solid crimson;
+    color: crimson;
+}
+
+button {
+    padding: 1rem;
+}
