@@ -1,6 +1,7 @@
 <?php
 $testoVar = $_GET["testoInserito"];
-
+// bonus testo modificato
+$testoModificato = str_replace('ciao', 'PHP', $testoVar)
 
 ?>
 
@@ -19,5 +20,12 @@ $testoVar = $_GET["testoInserito"];
     <h2>il messaggio inviato è:</h2>
         
     <p><?php echo $testoVar ?></p>
+
+    <h2>BONUS testo modificato</h2>
+    <!-- APPORTO LA MODIFICA DIRETTAMENTE NEL TESTO -->
+    <p><?php echo str_replace('ciao', 'saluti', $testoVar) ?></p>
+    
+    <!-- RICHIAMO LA VARIABILE IN CUI HO GIà SALVATO LA MODIFICA -->
+    <p><?php echo $testoModificato ?></p>
 </body>
 </html>
